@@ -8,10 +8,10 @@
 
 ## Building Docker Image
 
-1. docker build -t shahidabdul/mark-prediction-app .
-2. docker run -p 5001:5001 shahidabdul/mark-prediction-app
+1. docker build -t shahidabdul/marks-prediction-app .
+2. docker run -p 8080:8080 shahidabdul/marks-prediction-app
 3. docker images
-4. docker push shahidabdul/mark-prediction-app:latest
+4. docker push shahidabdul/marks-prediction-app:latest
 
 ## Docker Setup In EC2 commands to be Executed
 
