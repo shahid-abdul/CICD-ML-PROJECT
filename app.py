@@ -36,5 +36,5 @@ def predict_datapoint():
     
 
 if __name__ == '__main__':
-    print(f" * Running on http://127.0.0.1:5001/")
+    print(f" * Running on http://127.0.0.1:8080/")
     app.run(debug=True, port=8080, host='0.0.0.0')    
